@@ -12,3 +12,6 @@ HelloFunction()
 def HelloUser(to):
     print("Hello,", to)
 
+HelloUser(input("What's your name? ").title().strip())
+
+
