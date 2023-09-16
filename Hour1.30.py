@@ -8,6 +8,7 @@ HelloFunction()
 
 # Create a function that can receive an input
 # then print hello to the user
+# .title() .strip etc.
 
 def HelloUser(to):
     print("Hello,", to)
