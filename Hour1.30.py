@@ -1,18 +1,21 @@
 # create a function that says hello
 
-def HelloFunction():
+def hello_function():
     print("hello")
 
 
-HelloFunction()  
+hello_function()  
 
 # Create a function that can receive an input
 # then print hello to the user
 # .title() .strip etc.
 
-def HelloUser(to):
+def hello_user(to):
     print("Hello,", to)
 
-HelloUser(input("What's your name? ").title().strip())
+def main():
+ hello_user(input("What's your name? ").title().strip())
+
+main()
 
 
