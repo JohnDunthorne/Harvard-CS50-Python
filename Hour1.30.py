@@ -4,4 +4,11 @@ def HelloFunction():
     print("hello")
 
 
-HelloFunction()    
+HelloFunction()  
+
+# Create a function that can receive an input
+# then print hello to the user
+
+def HelloUser(to):
+    print("Hello,", to)
+
