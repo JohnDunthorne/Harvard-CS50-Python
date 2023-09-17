@@ -16,3 +16,7 @@ if x > y or x < y:
     print("X is not equal to Y")
 else:
     print("X is equal to Y")
+
+# as a side note using 'or' wasn't ideal here
+# asking if x != y would have been better
+# this was just an example of what 'or' can do
