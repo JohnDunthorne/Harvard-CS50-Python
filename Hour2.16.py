@@ -11,4 +11,10 @@ elif score >= 70:
 elif score >= 60:
     print("you got a D")
 else:
-    print("you got an F")                    
+    print("you got an F") 
+
+# Is the score even or odd
+if score % 2 == 0:
+    print("score is an even number") 
+else:
+    print("score is an odd number")                      
