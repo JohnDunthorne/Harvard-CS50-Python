@@ -6,4 +6,5 @@ try:
     x =  int(input("Pick a number: "))
 
     print(f"x is {x}")
-except:    
+except ValueError:
+    print("Please only type a number")    
