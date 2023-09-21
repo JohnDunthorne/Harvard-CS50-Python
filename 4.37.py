@@ -1,9 +1,11 @@
 # Define a function to get an integer from user
+
 def main():
-    get_int()
+    user_number = get_int()
+    print(f"Your number is {user_number}")
+
 
 def get_int():
-
     while True:
         try:
             user_number =  int(input("Pick a number: "))
@@ -11,8 +13,6 @@ def get_int():
             print("Please only type a number")
         else: 
             break   
-            
-            
-    print(f"Your number is {user_number}")
+    return user_number        
 
 main()
