@@ -8,11 +8,10 @@ def main():
 def get_int():
     while True:
         try:
-            user_number =  int(input("Pick a number: "))
+            user_number = int(input("Pick a number: "))
         except ValueError:
-            print("Please only type a number")
+            pass
         else: 
-            break   
-    return user_number        
+            return user_number         
 
 main()
