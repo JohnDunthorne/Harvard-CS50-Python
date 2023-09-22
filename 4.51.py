@@ -2,7 +2,7 @@
 
 from random import choice
 
-def main(dice_roll):
+def main():
     dice_roll = dice_roll(dice_roll)
     print(dice_roll)
 
@@ -10,6 +10,6 @@ def main(dice_roll):
 def dice_roll(dice_roll):    
     return choice([1, 2, 3, 4, 5, 6])
 
-main(dice_roll)
+main()
 
 # this worked but i think its sloppy
