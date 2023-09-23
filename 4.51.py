@@ -3,12 +3,11 @@
 from random import choice
 
 def main():
-    dice_roll = dice_roll(dice_roll)
-    print(dice_roll)
+    dice_roll()
 
-
-def dice_roll(dice_roll):    
-    return choice([1, 2, 3, 4, 5, 6])
+def dice_roll():    
+    print(choice([1, 2, 3, 4, 5, 6]))
+    
 
 main()
 
