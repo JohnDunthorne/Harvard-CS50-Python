@@ -6,6 +6,4 @@ import cowsay
 import sys
 
 if len(sys.argv) == 2:
-    cowsay.trex("Hello, " + sys.argv[1])
-
-# this did not work, .cow didnt seem to do anything
+    cowsay.cow("Hello, " + sys.argv[1])
