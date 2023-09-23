@@ -1,6 +1,6 @@
 import sys
 
-from Defs import hello
+from sup602 import hello
 
 hello("john")
 
