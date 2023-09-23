@@ -7,7 +7,7 @@ import sys
 # if user does not provide the name of the file and the name of
 # a band, then exit the program
 if sys.argv != 3:
-    sys.exit
+    sys.exit()
 
 response = requests.get("https://itunes.apple.com/search?term=" + sys.argv[1] + "&limit=" + sys.argv[2] + ".")
 # print(json.dumps(response.json(), indent=2))
