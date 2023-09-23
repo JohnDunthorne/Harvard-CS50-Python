@@ -6,10 +6,17 @@ import sys
 
 # if user does not provide the name of the file and the name of
 # a band, then exit the program
-if sys.argv != 2:
+if sys.argv != 3:
     sys.exit
 
-response = requests.get("https://itunes.apple.com/search?term=" + sys.argv[1] + "&limit=1.")
-print(json.dumps(response.json(), indent=2))
+response = requests.get("https://itunes.apple.com/search?term=" + sys.argv[1] + "&limit=" + sys.argv[2] + ".")
+# print(json.dumps(response.json(), indent=2))
 
-# This url doesnt work now for some reason
+# Write code to print an amount of song names
+# that the user types at the prompt
+# user must write
+# file name, artist, number of songs
+
+jsonlist = response.json()
+for song_name in jsonlist["results"]:
+    print(song_name["trackName"])
