@@ -10,3 +10,9 @@ def test_square():
     assert square(3) == 9
     assert square(-3) == 9
     assert square(0) == 0
+
+# to test this with pytest
+# write
+# pytest 627.py
+# in the command line
+# so pytest followed by the file name
