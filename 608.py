@@ -1,10 +1,15 @@
 # Square a number based on user input
 
+from functions import square
 def main():
     x = int(input("Select a number: "))
     print(square(x))
 
-def square(n):
-    return n * n
+# this code below ensures
+# main only gets called
+# when this file is ran
+# not if functions are
+# imported somewhere else
 
-main()
+if __name__ == "__main__":
+    main()
