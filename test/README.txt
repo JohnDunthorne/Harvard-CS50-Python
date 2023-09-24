@@ -1,4 +1,7 @@
-Make sure test folder has
+to be sure that *pytest test*
+works in the command prompt
+
+Make sure 'test' subdirectory folder has
 
 __init__.py in the folder
 
@@ -6,7 +9,7 @@ files that start with test_*
 
 for example test_file
 
-make sure all test within the files are labelled
+all tests within the files are labelled
 
 test_*
 or
