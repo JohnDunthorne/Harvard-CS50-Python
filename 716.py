@@ -6,8 +6,10 @@ for line in lines:
     print("Hello,", line.rstrip())
 
 # we can shorten all this in python
-
-with open("names.txt", "r") as file:
+# we can leave out "r" as an arguement
+# as it is set to the default
+# if nothing is there
+with open("names.txt") as file:
     for line in sorted(file):
         print("hello,", line.rstrip())
 
