@@ -16,3 +16,6 @@ file.write(name)
 
 # Then close the file so we can save our name
 file.close()
+
+# This code as its stands will overwrite
+# the original .txt file each time though
