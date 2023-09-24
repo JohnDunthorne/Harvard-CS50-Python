@@ -1,7 +1,7 @@
 # use pytest to test square function
 # remember ***pip install pytest***
 # in the command line
-# docs.pytest.org for documentation
+# docs.pytest.org f or documentation
 from functions import square
 
 def test_positive():  
