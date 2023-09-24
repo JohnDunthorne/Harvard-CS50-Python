@@ -8,3 +8,6 @@ def goodbye(name):
 
 def square(n):
     return n * n
+
+def hello_name(to="World"):
+    return f"Hello, {to}"
