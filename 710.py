@@ -6,3 +6,6 @@ name = input("Type your name: ")
 file = open("names.txt", "a")
 file.write(f"{name}\n")
 file.close()
+
+# See 714.py for an alternative
+# more conventionally used in python method
