@@ -2,10 +2,8 @@ import pytest
 from functions import square
 from functions import hello_name
 
-
 def test_hello_name_input():
     assert hello_name("John") == "Hello, John"
-
 def test_hello_name_default():
     assert hello_name() == "Hello, World"
 
@@ -22,4 +20,4 @@ def test_zero():
 
 def test_str():
     with pytest.raises(TypeError):
-        square("cat")
+        square("cat")   
