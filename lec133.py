@@ -1,0 +1,1 @@
+print("?" * int(input("Select a number: ")))
