@@ -5,5 +5,5 @@ while x > y:
     print(x)
     x -= 1
 else:
-    print(" x and y are equal", end ="")
+    print("x and y are equal ", end ="")
     print(f"x is {x} and y is {y}")
