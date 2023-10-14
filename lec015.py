@@ -1,4 +1,4 @@
-y = 15
+y = 13
 x = 13
 if x > y:
     print("x is greater than y")
