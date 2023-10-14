@@ -1,9 +1,15 @@
 scores = []
-for i in range(3):
-    score = int(input("Score: "))
-    scores.append(score)
+try:
+    for i in range(3):
+        score = int(input("Score: "))
+        scores.append(score)
+except ValueError or ZeroDivisionError:
+    print("Numbers only")
 
-average = sum(scores)/len(scores)
+try:    
+    average = sum(scores)/len(scores)
+except ValueError or ZeroDivisionError:
+    print("Numbers only")
 
 if average >= 90:
     print("A")
