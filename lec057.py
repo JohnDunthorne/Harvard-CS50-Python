@@ -2,10 +2,10 @@
 def main():
 
     s = input("do you agree? ")
-
-    if s.lower() in ["y", "yes"]:
+    s = s.lower()
+    if s in ["y", "yes"]:
         print("Agreed")
-    elif s.lower() in ["n", "no"]:
+    elif s in ["n", "no"]:
         print("Not agreed")
     else:
         print("invalid input, try Y or N")
