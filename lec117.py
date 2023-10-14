@@ -1,11 +1,9 @@
+def main():
+    n = get_int()
+    for i in range(n):
+        print("#")
 
-def main(n):
-    print("#" * n)    
-
-
-
-
-def get_int(n):
+def get_int():
     while True:
         n = int(input("Select a number: "))
         if n > 0:
