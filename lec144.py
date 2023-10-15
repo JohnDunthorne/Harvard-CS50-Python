@@ -5,14 +5,12 @@ def multiply(a, b):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python script.py <number1> <number2>")
+        print("Try 2 integers in command line")
         sys.exit(1)
 
-    first_str, second_str = sys.argv[1], sys.argv[2]
-
     try:
-        first_int = int(first_str)
-        second_int = int(second_str)
+        first_int = int(sys.argv[1])
+        second_int = int(sys.argv[2])
     except ValueError:
         print("Error: Both arguments should be valid integers.")
         sys.exit(1)
